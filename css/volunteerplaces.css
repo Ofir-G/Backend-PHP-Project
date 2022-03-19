@@ -1,0 +1,83 @@
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+
+.Carousel-pictures{
+    height: 400px;
+    object-fit:cover;
+    object-position: 0% 20%;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+    background-color: #0077b6;
+}
+
+.btn-primary{
+    background-color: #0466c8;
+    border: #0466c8;
+    outline: #0466c8;
+}
+
+.btn-primary:hover{
+    background-color: #0353a4;
+}
+
+.btn-secondary:hover{
+    background-color: #495057;
+
+}
+
+hr{
+    height:2px;border-width:0;color:gray;background-color:gray
+}
+
+.list-group-item{
+    background-color: #F7F7F7;
+}
+
+.jumbotron{
+    width: 70%;
+    position: relative;
+    top: -84px;
+    margin-left: 15%;
+}
+
+.display-4{
+    font-size: 4rem ;
+}
+
+.lead{
+    font-size: 1.7rem;
+}
+
+#learn{
+    text-align: left;
+    transition: 0.3s;
+}
+
+#learn:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.alert-success{
+    display: none;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+
+    .lead {
+        font-size: 1.2rem;
+    }
+    .Carousel-pictures{
+        object-position: initial;
+    }
+}

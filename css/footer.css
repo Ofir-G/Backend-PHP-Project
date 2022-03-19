@@ -1,0 +1,11 @@
+.headers_footer {
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.google-map {
+    width: 60%;
+    height: 400px;
+    margin: auto;
+}

@@ -1,0 +1,122 @@
+.box {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px gray;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /*background: gray;*/
+}
+
+.form-control:hover,
+.custom-select:hover {
+    box-shadow: 0 0 3px 3px rgb(164, 207, 255);
+}
+
+@media only screen and (max-width: 750px) {
+    #btn-buy {
+        width: 50%;
+    }
+}
+
+.card {
+    margin: auto;
+    width: 30rem;
+    display: none;
+}
+
+.card-img-top {
+    height: 18em;
+    object-fit: cover;
+}
+
+#choice {
+    display: none;
+    color: green;
+    font-weight: bold;
+}
+
+
+.nav li a {
+    display: block;
+    padding: 15px;
+    background: rgba(160, 179, 176, .25);
+    color: #a0b3b0;
+    transition: 0.5s ease;
+}
+
+.nav li a:hover {
+    background: #179b77;
+    color: #fff;
+}
+
+.nav-item .active {
+    background: #1ab188 !important;
+    color: #fff;
+}
+
+.btn-submit {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: #1ab188;
+    color: #fff;
+    transition: all 0.5s ease;
+    display: block;
+    margin: auto;
+}
+
+.btn-submit:hover {
+    background: #179b77;
+}
+
+.display-none {
+    display: none;
+}
+
+.required {
+    color: darkred;
+    font-weight: bold;
+}
+
+.login {
+    font-size: 1.5em;
+}
+
+#refresh {
+    background: #24c0f6;
+}
+
+.btn-log {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: #1ab188;
+    color: #fff;
+    transition: all 0.5s ease;
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+@media only screen and (max-width: 770px) {
+    .display-4{
+        font-size: 2rem;
+    }
+}
+
+.alert-success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

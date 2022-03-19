@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+#navbarNav {
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+a .nav-link {
+    text-align: center;
+
+}
+
+.navbar-nav a{
+    transition: 0.2s;
+}
+
+.navbar-nav a:hover {
+    background-color: #ddd;
+    color: black !important;
+    border-radius: 10px;
+}
+
+.navbar:hover .navbar-brand{
+    color: #24c0f6 !important;
+}
+
+#VMA {
+    font-family: 'Carter One', sans-serif;
+    position: absolute;
+}
+
+@media only screen and (max-width: 992px) {
+    #VMA {
+        position: static;
+    }
+}
+
+.profile-pic {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    outline: 3px solid black;
+}
+
+.profile-pic:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: 3px solid white;
+}
+
+.dropdown-menu{
+
+    width: 210px;
+
+}
