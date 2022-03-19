@@ -1,4 +1,4 @@
-### Volunteering Site (Underline)
+## Volunteering Site
 
 ### Live Site
 http://ofirge.mtacloud.co.il/server/
