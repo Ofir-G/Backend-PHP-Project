@@ -4,7 +4,7 @@
 http://ofirge.mtacloud.co.il/server/
 
 ### Technologies used
-- HTML, CSS, Javascript (jQuery), PHP, mySQL
+- HTML, CSS (Bootstrap), Javascript (jQuery), PHP, mySQL
 - Ajax & API integration
 
 
