@@ -3,6 +3,10 @@
 ### Live Site
 http://ofirge.mtacloud.co.il/server/
 
+_User to see the profile dashboard-
+Username: ofir
+Password: 123
+_
 ### Technologies used
 - HTML, CSS (Bootstrap), Javascript (jQuery), PHP, mySQL
 - Ajax & API integration
